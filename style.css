@@ -51,8 +51,13 @@ nav ul li a {
     color: #fff !important;
     padding: 8px 20px;
     border-radius: 5px;
+    transition: all 0.3s ease;
 }
-
+.btn-contato:hover {
+  background-color: #764ba2;
+  transform: scale(1.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
 /* Hero Section */
 .hero {
     height: 80vh;
